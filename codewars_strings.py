@@ -14,3 +14,7 @@ def array(string):
 
 def is_uppercase(inp):
     return inp == inp.upper()
+
+
+def reverse_words(s):
+    return " ".join(s.split(" ")[::-1])
