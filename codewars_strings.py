@@ -18,3 +18,13 @@ def is_uppercase(inp):
 
 def reverse_words(s):
     return " ".join(s.split(" ")[::-1])
+
+def filter_list(l):
+    return [x for x in l if isinstance(x, int)]
+
+def double_integer(i):
+    return i * 2
+
+
+def lovefunc( flower1, flower2 ):
+    return (flower1 + flower2) % 2 == 1
